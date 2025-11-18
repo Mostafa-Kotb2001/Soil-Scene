@@ -44,6 +44,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
 
+      debugShowCheckedModeBanner : false ,
       routes: <String, WidgetBuilder>{
         '/Sign in': (BuildContext context) => Login(),
         '/Sign up': (BuildContext context) => Sign_up(),
